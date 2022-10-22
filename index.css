@@ -1,0 +1,71 @@
+body{
+    text-align: center;
+    background-color: darkgreen;
+    letter-spacing: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    font-weight: bold;
+}
+h1{
+    color: goldenrod;
+    padding-top: 90px
+}
+.InputUserDetails{
+    display:flex;
+    flex-direction: column;
+    float: right;
+}
+.userInput {
+    width: 190px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 16px;
+    background-color: darkgreen;
+    text-align: center;
+}
+.saveUser {
+    width: 100px;
+    margin-left: 50px;
+}
+.createUser{
+    color: white;
+    float: right;
+    text-transform: uppercase;
+    font-size: 13px;
+    background-color: darkgreen;
+    border: none;
+    margin-top: -10px;
+}
+p:first-of-type{
+    font-style: italic;
+    padding-top:30px;
+}
+P:last-of-type{
+    padding: 0px;
+}
+p {
+    color: white;
+    font-size:18px;
+}
+#sum-el{
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    cursor: pointer;
+}
+button{
+    background-color: goldenrod;
+    color: #016f32;
+    text-transform: uppercase;
+    border: 1px solid goldenrod;
+    border-radius:2px;
+    padding: 4px 0px 4px 0px;
+    width: 200px;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}

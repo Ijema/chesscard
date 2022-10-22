@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <div class="InputUserDetails">
+            <button id="user-el" class="createUser" onclick="createUser()">Create User</button>
+            <input type="text" id="userInput-el" class="userInput"  />
+            <button id="saveUser-el" class="saveUser" onclick="saveUser()">Save</button>
+        </div>
+        <h1>Blackjack</h1>
+        <p id="message-el"> Want to play a round?</p>
+        <p id="cards-el">Cards:</p>
+        <p id="sum-el">Sum:</p>
+        <div class="buttons">
+            <button onclick="startGame()">Start Game</button>
+            <button onclick="newCard()">New Card</button>
+            <p id="player-el"></p>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
